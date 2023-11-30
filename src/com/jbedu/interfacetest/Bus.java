@@ -1,7 +1,11 @@
 package com.jbedu.interfacetest;
 
 public class Bus implements Car {
-
+	
+	public void test() {
+		
+	}
+	
 	@Override
 	public void excelPedal() {
 		// TODO Auto-generated method stub

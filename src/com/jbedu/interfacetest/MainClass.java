@@ -15,6 +15,8 @@ public class MainClass {
 		Car car3;
 		Bus bus2 = new Bus();
 		car3 = bus2;
+		//car3.test()//실행 불가->인터페이스 내에 선언된 추상메소드만 호출 가능
+		
 		car3 = truck;
 		
 		bus2 = (Bus) car3;//강제형변환
